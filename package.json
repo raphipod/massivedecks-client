@@ -1,0 +1,15 @@
+{
+  "name": "massivedecks-client",
+  "version": "0.1.0",
+  "description": "A desktop client for MassiveDecks",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron .",
+    "build-win32": "electron-packager . massivedecks-client --platform=win32 --arch=x64 --icon=/resources/icon.ico --electronVersion=10.1.5"
+  },
+  "author": "Raphipod",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^10.1.5"
+  }
+}
